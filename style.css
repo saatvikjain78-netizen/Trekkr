@@ -60,19 +60,23 @@ nav .active {
 }
 
 .light-section {
-    background-color: #fff4d6;
+    color:white;
 }
 
-.card {
+.card{
     display: inline-block;
-    width: 28%;
-    min-width: 200px;
-    margin: 10px;
-    padding: 15px;
-    vertical-align: top;
-    border: 1px solid #aaaaaa;
-    text-align: left;
+     background: transparent;    /* Removes the background color */
+  border: .5px solid black;               /* Removes the border line */
+  box-shadow: none;           /* Removes any shadow if present */
+  padding: 15px;
+  text-align: center;
+
 }
+
+.card:hover{
+    background-color: lightgray;
+}
+
 
 .button {
     display: inline-block;
