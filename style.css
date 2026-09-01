@@ -52,8 +52,9 @@ nav .active {
     margin: 20px auto;
     padding: 25px;
     max-width: 1000px;
-    background-color: white;
-    border-radius:20px
+    background-color: gainsboro;
+    border-radius:20px;
+    
 }
 
 .section h2,
@@ -200,4 +201,16 @@ footer {
     .gallery-image { width: 90%; }
     .personal-photo, .trek-video { width: 90%; }
     .hero h2 { font-size: 28px; }
+}
+.box {
+  align-items: center;          /* Centers content vertically */
+  width: 300px;                  /* Sets the box width */
+  padding: 20px;                 /* Space inside the box */
+  border: 1px solid #ccc;        /* Outline border */
+  border-radius: 8px;            /* Rounded corners */
+  background-color: #f9f9f9;     /* Light background color */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  margin-left:auto;                 /* Centers the box horizontally */
+  margin-right:auto;
+  
 }
